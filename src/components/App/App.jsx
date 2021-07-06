@@ -6,12 +6,14 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 import Contact from "../Contact/Contact";
+import NavBar from "../NavBar/NavBar";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <div>
+            <NavBar />
           <Route path="/" component={Home} exact></Route>
           <Route path="/about" component={About}></Route>
           <Route path="/projects" component={Projects}></Route>
