@@ -4,6 +4,7 @@ body {
   margin: 0;
   width: 100%;
   overflow-x: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
 input:focus,
