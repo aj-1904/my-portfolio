@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
@@ -12,7 +12,7 @@ import GoHome from "../GoHome/GoHome";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <NavBar />
           <Route path="/" component={Home} exact></Route>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" component={Contact}></Route>
           <GoHome />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
