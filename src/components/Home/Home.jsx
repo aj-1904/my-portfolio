@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import homeAnime from "./../../assets/home_anime.gif";
+import Modal from "../Modal/Modal";
 
 class Home extends React.Component {
   render() {
     return (
       <div className="home-container">
+        {/* <Modal /> */}
         <div className="header-text">
           <h1>Welcome to my portfolio!</h1>
           <p>This is Ayush, an aspiring front-end developer</p>
