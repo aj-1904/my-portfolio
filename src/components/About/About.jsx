@@ -10,7 +10,7 @@ const About = () => {
     <div className="section-container">
       <Header
         heading="About Me."
-        details="Programmer | Aspiring front-end developer | Learner"
+        details="Programmer | Front-end developer | Learner"
       />
 
       <div className="about-main">
@@ -25,8 +25,7 @@ const About = () => {
           {/* Sub section 2 */}
           <h3 className="about-sub-head">Current Experience</h3>
           <p className="about-details">
-            Currently working as a System Engineer at TCS. I am aspiring to be a
-            Front-end developer.{" "}
+            Currently working as a System Engineer at TCS.{" "}
           </p>
         </div>
 

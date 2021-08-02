@@ -11,7 +11,7 @@ class Home extends React.Component {
         {/* <Modal /> */}
         <div className="header-text">
           <h1>Welcome to my portfolio!</h1>
-          <p>This is Ayush, an aspiring front-end developer</p>
+          <p>This is Ayush, a front-end developer</p>
         </div>
         <div className="head-btns">
           <Link to="/about" className="btn btn-white">
