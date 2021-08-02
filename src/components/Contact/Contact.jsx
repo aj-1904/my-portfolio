@@ -15,12 +15,16 @@ function Contact() {
       />
       {/* form section */}
       <div className="contact-form-container">
-        <form className="contact-form">
+        <form
+          className="contact-form"
+          action="https://formspree.io/f/xvodwqqk"
+          method="POST"
+        >
           {/* email id input */}
           <input
             type="email"
             placeholder="Your Email ID"
-            name="email"
+            name="_replyto"
             className="input-box email-input"
           />
 
